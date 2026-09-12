@@ -1,0 +1,12 @@
+{
+  "name": "udos-google",
+  "version": "0.1.0",
+  "description": "Google bridge contract and Wave G scaffolding",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "python3 -m unittest discover"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}

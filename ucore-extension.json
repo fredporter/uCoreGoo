@@ -1,0 +1,12 @@
+{
+  "id": "ucore-google",
+  "name": "uCore Google Bridge",
+  "kind": "plugin",
+  "version": "0.1.0",
+  "description": "Google bridge plugin for Gemini 2.0, Grounded Search, Drive mirror, and DreamBeans daily intelligence",
+  "optional": true,
+  "api_prefix": "/api/google",
+  "entrypoint": "udos_google.setup",
+  "route_registrar": "udos_google.routes.register_routes",
+  "dependencies": ["ucore-core", "ucore-secrets"]
+}

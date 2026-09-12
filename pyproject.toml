@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "udos-google"
+version = "0.1.0"
+description = "Google bridge contract and Wave G scaffolding"
+authors = [{name = "", email = ""}]
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+dependencies = []
+
+[project.urls]
+"Homepage" = "https://example.com/udos-google"
+"Bug Tracker" = "https://github.com/example/udos-google/issues"
+
+[tool.setuptools.packages.find]
+include = ["udos_google*"]
